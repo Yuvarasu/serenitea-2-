@@ -1,0 +1,156 @@
+.nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav .links a {
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav .links .mainlink {
+  color: #e0501b;
+}
+
+.nav h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+
+
+
+.logo h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+.sector_11 {
+    height: 600px;
+    border: 1px solid red;
+  }
+  .sector_12 {
+    background-color: #f3f8fe;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  #sector_12_left {
+    width: 30%;
+    padding: 1rem;
+    padding-top: 50px;
+    font-family: "Gilroy-Medium", sans-serif;
+  }
+  #sector_12_right {
+    width: 40%;
+    padding-top: 70px;
+  }
+  #sector_12_left_p1 {
+    color: var(--darkblue);
+    font-size: 50px;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: bold;
+  }
+  #sector_12_left_p2 {
+    font-size: 25px;
+    color: var(--lightblue);
+  }
+  #sector_12_left_p2_span {
+    color: var(--blue);
+  }
+  #sector_12_left_p2_span:hover {
+    cursor: pointer;
+    color: var(--darkblue);
+  }
+  .grow {
+    padding: 10px 10px 20px 20px;
+    border-radius: 10px;
+    height: 49px;
+    /* width: 50%; */
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition: height 0.2s;
+    -webkit-transition: height 0.2s;
+    /*   text-align: center; */
+    overflow: hidden;
+    transition: 1.5s;
+    border: 1px solid rgb(190, 190, 239);
+    /* padding: 2rem; */
+    background-color: white;
+    font-family: "Gilroy-Medium", sans-serif;
+  }
+  .grow:hover {
+    height: 130px;
+    /*   width: 50vw; */
+  }
+  #grow_p1 {
+    color: var(--darkblue);
+  }
+  #grow_p2 {
+    color: var(--lightblue);
+  }
+  #grow_p2_span {
+    color: var(--blue);
+  }
+  #grow_p2_span:hover {
+    color: var(--darkblue);
+    cursor: pointer;
+  }
+  .sector_13 {
+    height: 500px;
+    background-image: url("../Images/product/Calendly_CTA_bg_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+  }
+  #sector_13_child {
+    padding-top: 70px;
+    width: 50%;
+    margin: auto;
+  }
+  #sector_13_p1 {
+    color: var(--white);
+    font-size: 50px;
+    font-weight: bold;
+  }
+  #sector_13_p2 {
+    color: var(--white);
+    font-size: 20px;
+  }
+  #sector_13_child_button {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
